@@ -1,0 +1,50 @@
+.App {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e0f7fa; /* Light blue background */
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+.App {
+  max-width: 600px; /* Center the app with a max width */
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #5ff0f5; /* White background for the card */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h1 {
+  text-align: center;
+  color: #00796b; /* Dark teal color for the heading */
+}
+
+.weather-display {
+  border: 1px solid #00796b; /* Border matching the theme */
+  border-radius: 8px;
+  padding: 15px;
+  margin-top: 20px;
+  text-align: center;
+  background-color: #f1f8e9; /* Light green background for weather data */
+}
+
+.weather-display img {
+  width: 80px; /* Size of the weather icon */
+  height: auto;
+}
+
+p {
+  margin: 8px 0; /* Spacing between paragraphs */
+}
+
+.error {
+  color: #d32f2f; /* Red color for error messages */
+  text-align: center;
+  font-weight: bold;
+}
